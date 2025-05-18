@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Konversi Singapore - President Group</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="card">
+  <img src="image/pg1.png" alt="President Group Logo" class="logo" />
+  <div class="title">PRESIDENT GROUP</div>
+  <h1>Winning Number</h1>
+  <div class="number-grid">
+    <input type="text" id="b1" oninput="autoCalculate()" />
+    <input type="text" id="b2" oninput="autoCalculate()" />
+    <input type="text" id="b3" oninput="autoCalculate()" />
+    <input type="text" id="b4" oninput="autoCalculate()" />
+    <input type="text" id="b5" oninput="autoCalculate()" />
+    <input type="text" id="b6" oninput="autoCalculate()" />
+  </div>
+
+  <div class="additional-box">
+    <h2>Additional Number</h2>
+    <input type="text" id="add" oninput="autoCalculate()" />
+  </div>
+
+  <div class="button-group">
+    <button onclick="resetForm()">Reset</button>
+  </div>
+
+  <div class="result" id="output">0000</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
